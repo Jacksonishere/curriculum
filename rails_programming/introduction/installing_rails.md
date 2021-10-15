@@ -248,10 +248,10 @@ Now that we've committed the files, we can push to Heroku:
 git push heroku main
 ~~~
 
-  **UPDATE 2019-01-04:** If you run into an error on the next command stating that you need to use Bundler 2 or greater with this lockfile, you'll need to run:
+  **UPDATE 2021-10-15:** If you run into an error on the next command stating that you need to use Bundler 2 or greater with this lockfile, you'll need to run:
 
 ```
-heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2
+heroku buildpacks:set heroku/ruby
 ```
 
   and then run the `git push heroku main` command again.
